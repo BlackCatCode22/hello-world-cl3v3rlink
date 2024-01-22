@@ -1,33 +1,17 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("\n Welcome to variables and math !! \n");
+        System.out.println("hey hows it going guys");
+        // Declaring an integer variable named 'G' and initializing it with the value 100
+        int  G = 100;
 
-        // A variable is a storage location in memory with a specific type and a name.
-        /* This is a longer comment.
+        // Declaring a double variable named 'H' and initializing it with the value 5.0
+        double H = 5.0;
 
-            Comments are ignored by the compiler, but are important for the programmer!
-         */
+        // Performing a mathematical operation: adding 'G' and 'H'
+        double sum = G + H;
 
-        // Declaring an integer variable named 'a' and initializing it with the value 10
-        int a = 10;
+        System.out.println("The product of " + G + " and " + H + " is: " + sum);
 
-        // Declaring a double variable named 'b' and initializing it with the value 5.5
-        double b = 5.5;
-
-        // Performing a mathematical operation: adding 'a' and 'b'
-        double sum = a + b;
-
-        System.out.println("\n\n The sum of " + a + " and " + b + " is " + sum);
-
-        // Variables can also be used to store the results of other operations
-        double product = a * b;
-        System.out.println("The product of " + a + " and " + b + " is: " + product);
-
-        // Demonstrating variables value change
-        a = 20; // Changing the value of 'a' to 20
-        sum = a + b; // Recalculating sum with the new value of 'a'
-        System.out.println("\n\nThe new sum of " + a + "and " + b + " is: " + sum + "\n\n");
-
-
+        System.out.println(" ok try to see what else i could do ... nice to see it come long ");
     }
 }
